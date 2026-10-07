@@ -1,5 +1,7 @@
 # knowledge-intake-skills
 
+> **Canonical home moved.** These skills now live in the private repo [`bradcerb/bstack`](https://github.com/bradcerb/bstack) under `plugins/knowledge-intake/`. Prefer installing from bstack for new setups. This standalone repo stays usable so existing installs keep working; treat it as a thin mirror until you switch.
+
 Portable **Notion-first** knowledge capture and wiki ingest skills.
 
 Raw Markdown blobs live outside Notion. Notion holds a Raw DB index, curated Wiki DB pages, and a Wiki Log. Skills follow the [Agent Skills](https://agentskills.io) folder + `SKILL.md` shape; thin plugin manifests are the install layer only. **No MCP server** ships in this pack — use your host’s Notion connector when writing rows/pages.
@@ -17,6 +19,8 @@ Raw Markdown blobs live outside Notion. Notion holds a Raw DB index, curated Wik
 | `wiki-ingest` | Verified raw → Notion Wiki DB + Wiki Log (never edit raw) |
 
 ## Install matrix
+
+For new installs, use [`bradcerb/bstack`](https://github.com/bradcerb/bstack) `plugins/knowledge-intake/` (private). Steps below still work for this standalone checkout.
 
 ### 1. Bare skills (Claude / Codex / agentskills.io)
 
