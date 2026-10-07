@@ -1,0 +1,21 @@
+{
+  "name": "knowledge-intake-skills",
+  "owner": {
+    "name": "Brad",
+    "url": "https://github.com/bradcerb"
+  },
+  "metadata": {
+    "description": "Portable Notion-first knowledge capture and wiki ingest skills for Claude Code",
+    "version": "1.0.0",
+    "repository": "https://github.com/bradcerb/knowledge-intake-skills"
+  },
+  "plugins": [
+    {
+      "name": "knowledge-intake-skills",
+      "description": "Notion-first knowledge capture and wiki ingest (orchestrator + five capture skills + wiki-ingest)",
+      "source": "./",
+      "category": "productivity",
+      "tags": ["knowledge", "notion", "skills", "ingest", "wiki"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "knowledge-intake-skills",
+  "displayName": "Knowledge Intake Skills",
+  "description": "Portable Notion-first knowledge capture and wiki ingest skills — newsletters, articles, podcasts, YouTube, meetings, and wiki ingest.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brad",
+    "url": "https://github.com/bradcerb"
+  },
+  "homepage": "https://github.com/bradcerb/knowledge-intake-skills",
+  "repository": "https://github.com/bradcerb/knowledge-intake-skills",
+  "license": "MIT",
+  "keywords": ["knowledge", "notion", "skills", "ingest", "wiki"]
+}

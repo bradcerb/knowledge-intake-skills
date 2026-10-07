@@ -1,0 +1,15 @@
+{
+  "feeds": [
+    {
+      "name": "Example Public Podcast",
+      "author": "Example Host",
+      "rss_url": "https://example.com/podcast/rss",
+      "website": "https://example.com/podcast",
+      "active": true,
+      "mode": "all_new",
+      "initialize_without_backfill": true,
+      "exclude_title_patterns": ["trailer", "preview"],
+      "max_duration_minutes": 180
+    }
+  ]
+}
