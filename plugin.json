@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "knowledge-intake-skills",
+  "version": "1.0.0",
+  "description": "Portable Notion-first knowledge capture and wiki ingest skills (newsletters, articles, podcasts, YouTube, meetings).",
+  "author": {
+    "name": "Brad",
+    "url": "https://github.com/bradcerb"
+  },
+  "repository": "https://github.com/bradcerb/knowledge-intake-skills",
+  "license": "MIT",
+  "keywords": ["knowledge", "notion", "skills", "ingest"]
+}

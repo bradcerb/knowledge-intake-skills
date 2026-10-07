@@ -1,0 +1,11 @@
+{
+  "channels": [
+    {
+      "name": "Example Channel",
+      "channel_id": "UCxxxxxxxxxxxxxxxxxxxxxx",
+      "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxxxxxxxxxxxxxxxxxxxxxx",
+      "active": true,
+      "initialize_without_backfill": true
+    }
+  ]
+}

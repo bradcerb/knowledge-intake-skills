@@ -1,0 +1,55 @@
+{
+  "workspace_id": "personal",
+  "workspace_root": ".",
+  "raw_dir": "learnings/raw",
+  "loop_state": ".agents/loops/knowledge-intake.json",
+  "podcast_feeds": "skills/capture-podcasts/references/feeds.json",
+  "youtube_channels": "skills/capture-youtube/references/channels.json",
+  "wiki_ingest_skill": "wiki-ingest",
+  "notion_raw_db": {
+    "name": "Raw",
+    "id": "REPLACE_WITH_YOUR_NOTION_RAW_DATABASE_ID"
+  },
+  "notion_wiki_db": {
+    "name": "Wiki",
+    "id": "REPLACE_WITH_YOUR_NOTION_WIKI_DATABASE_ID"
+  },
+  "notion_wiki_log": {
+    "name": "Wiki Log",
+    "id": "REPLACE_WITH_YOUR_NOTION_WIKI_LOG_ID"
+  },
+  "guardrails": {
+    "max_podcast_items_per_run": 2,
+    "max_meeting_artifacts_per_run": 2,
+    "max_audio_minutes_per_run": 180
+  },
+  "routing_policy": {
+    "accept": [
+      "personal learning",
+      "research",
+      "writing",
+      "ideas",
+      "life administration",
+      "side projects"
+    ],
+    "reject": [
+      "work operations",
+      "client support tickets",
+      "confidential personnel",
+      "partner meetings marked confidential"
+    ],
+    "on_ambiguous": "defer"
+  },
+  "schema_categories": [
+    "sources",
+    "topics",
+    "systems",
+    "projects",
+    "ideas",
+    "people",
+    "decisions",
+    "brands",
+    "positions",
+    "clients"
+  ]
+}
