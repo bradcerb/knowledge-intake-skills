@@ -46,6 +46,8 @@ Invoke only the skills needed:
 
 Do not reproduce source-specific procedures here. Capture skills must not call this orchestrator.
 
+Scheduled cycles call `capture-meetings` with no date range, person filter, or output mode. Those parameters are for an explicit caller request.
+
 ## Scheduled workflow
 
 1. Read routing policy, loop state, and confirm Notion Raw DB + Wiki DB are configured (Notion MCP search/fetch/query). If either DB is missing, stop and ask.

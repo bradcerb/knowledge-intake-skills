@@ -18,6 +18,36 @@ Raw Markdown blobs live outside Notion. Notion holds a Raw DB index, curated Wik
 | `capture-meetings` | Authorized Meet/Teams artifacts → raw + Raw DB |
 | `wiki-ingest` | Verified raw → Notion Wiki DB + Wiki Log (never edit raw) |
 
+## capture-meetings parameters
+
+A default call passes none of these. Discovery stays on the configured lookback, every meeting in that window is eligible, and the skill writes raw Markdown plus the Notion Raw DB row.
+
+Date override:
+
+```text
+capture-meetings
+  date_range: "last two weeks"
+```
+
+Explicit window: `date_range: "2026-09-01..2026-09-14"` or `start: "2026-09-01"` and `end: "2026-09-14"`. `last 7 days` is the day-based form.
+
+One teammate:
+
+```text
+capture-meetings
+  person: "name@example.com"
+```
+
+Raw transcripts, without a Notion write:
+
+```text
+capture-meetings
+  output: raw
+  date_range: "last 7 days"
+```
+
+`output: both` runs capture and also returns the JSON Lines payload. Schema: `skills/capture-meetings/references/raw-output.md`.
+
 ## Install matrix
 
 For new installs, use [`bradcerb/bstack`](https://github.com/bradcerb/bstack) `plugins/knowledge-intake/` (private). Steps below still work for this standalone checkout.
